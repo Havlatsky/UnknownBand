@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandBarModel>
+	<CommandBar.Group layout="default" title="Edit">
+		<CommandBar.Button type="Menu" command.name="setupMenu">
+			<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IDN8dNUwAABRlJREFUWAntV+1PW1UYf+5tpZTyPhIW5GXZkBZLWyBgNEshkS/4STQMUJcpJRrRsJlo/Av8pomJLIJGh6x8EENCRochBuYSqdsaCYH0ZZAu+EEGo1Lkvbe99x6fc0mb0q62ZczwoSc53HvPec7z/Pg9L+cpQGqkGEgxkGIgxcCJZoBJBp3J9N5LLCu2EACjKJLT9Cwq4AiBNcKQ3wRCJswDA9PJ6IwnmzDArq53vyNE7OIFAQScoiiGdDMMAyzLSpOI5Kf9/d3ukZERb0jgCV4SAviOyfQJEPK5IIjQYDSC3qCH7KxsySzP87C9sw0upwumrVbw+XxIK2OVs8yrZrN5/QmwSUflCSkQRWOAF8DU2Ql6vS7qyGkohOfKy6GxsQH6+vthefnheR8v9qFgW5RwkguyePI9PT2KfR9nJhhoDQ1GZGsHNre2pEndqlAoQirS09NBp9fDvXs28Pv9Wq32+bsOh+NBSOAIL3EB2mw2QaOuLAkEArV37tyF6WmrNK3W3+HX27dBLpfDuXNnQ6bTETAv8OB2uwHdn+1yOX8MbR7hJS5AqtPhsI9VqNWqQMDP8gF+DQ2vCKK4ggFctLC4CCXFxVBYWBgyX1RUBFNTt0AQBXWVVvuZ0+nExD/aSCwGUfeN0dFPI020trV9jGtfTE5OYWzqQ9sZGRmQl5cHq6ur4ANSihtLoc0kX9gk5Q+Jq5TK79PS0mAFgUQOGp80boGDhLwUeT74nRCDJpOpDA2+hZXPiDafYQhJI8BkABGBgAiUscixg8kkk8lAFLi/I/eS+Y4LkIIDhp3HMpMdWaAlhtBaU9PLUTYVijSsiXKQyWWDzc3NbRMTE1yUUAILcQv1pUudF5ElswFjrL6+TmJFJpNDGgKgIy83F7KysqJMeTwe+Kq3FzY3t3CPGdvw5iHI3qRBxo0Pna7qLN67Hfmn8gGZgIKCAsjPz4ecnBxphtfBcJQqlQp0VVUwNzcHHMeplUqfvvjZxlG32yaEy8V7jwvQYDB4eEG8iBmZlanKhDNnymLqpHG3u7sLSqVSkjkOkHFdTC1duNDRxrAwTJuCuro6qK2pwRvkwMU8XoFerxdoPbTb7VJ5uXK5B3LR9cER7m5UYfFzXDs2E/vB/f96JgSQKni9tbVPFMT3afmgM3zQzoYmkAzXZXizFGPh/ujK5UPZfQDyKsbkJrZozDiKtg8NDe2G63nce1wXBw+5nM7xcl3VgBAIPOQDgk8Q+L9wLgV4fgGfU0QUvkSgHzIs+yK6utT9wC2xTUsNHdTdep0O5ubnacdTgUvV9fX1ltnZWb8kEONPwgzGOB+13NHRUYRutyDQ2spKDXzQ3S1lflBwfX0ds/sqbGxs0G53MsBxb6K7PcH9yGfCDEYejPWNcbit0Wgm0forGJunlpeXoaamOhQWtKjTkmV3OGBvb+8sIcx5p8N+LZa+YwdIDblcrg105y9Ynl5b83iyVx89gupqA/axBw6jWV5bWwP37y8gk96SCq32xoLTGX1foq7D0R7r3zjC+vDw8KKMZZowLtcwzuCHwcFDPxO2sKekZYl26dg8/hPLxFNhMGgMm9V1jUZ9E6l7A+toBi1HOkyUmZkZ6P/mWykOBZ7/eWxs7OvgmcjnsSdJpAH63d7eXol3uQ0zOrOsrBSWlv6kzSyyx1+/abG8/bgzwbX/BSA11oIgCcddx7isI6L4B2Hg2rjFQn+3nKzR0tLywslClEKTYiDFwNNl4F/OCDBEGvPnPAAAAABJRU5ErkJggg=="/>
+		</CommandBar.Button>
+		<CommandBar.Button type="Menu" command.name="editMenu" title="Action"/>
+		<CommandBar.Button type="Menu" command.name="renameMenu" title="Name"/>
+		<CommandBar.Button type="Button" command.category="Event" command.name="Merge Events" title="Merge"/>
+	</CommandBar.Group>
+	<CommandBar.Group title="Split">
+		<CommandBar.Button type="Button" command.category="Edit" command.name="Split Loop" title="Loop"/>
+		<CommandBar.Button type="Button" command.category="Edit" command.name="Split Range" title="Range"/>
+		<CommandBar.Button type="Button" command.category="Edit" command.name="Split at Cursor" title="Cursor"/>
+	</CommandBar.Group>
+	<CommandBar.Group title="Zoom">
+		<CommandBar.Button type="Button" command.category="Zoom" command.name="Zoom to Selection" title="Sel"/>
+		<CommandBar.Button type="Button" command.category="Zoom" command.name="Zoom to Loop" title="Loop"/>
+		<CommandBar.Button type="Button" command.category="Macros" command.name="Macro Wm9vbSBPdmVydmlldw=="
+		                   title="Overview"/>
+		<CommandBar.Button type="Button" command.category="Zoom" command.name="Toggle Zoom" title="Toggle"/>
+	</CommandBar.Group>
+	<CommandBar.Group layout="default" title="Audio">
+		<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RGVjcmVhc2UgVm9sdW1lIC0zZEI="
+		                   title="-3dB"/>
+		<CommandBar.Button type="Button" command.category="Macros" command.name="Macro SW5jcmVhc2UgVm9sdW1lICszZEI="
+		                   title="+3dB"/>
+		<CommandBar.Button type="Button" command.category="Audio" command.name="Render Event FX" title="FX">
+			<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IDN8dNUwAAArVJREFUWAntVDuLU0EUvsk1LzDEkM0q8bEqJkExm0LwsWAjtiJY2VlY+SMEC+3sxGpLERtthBVcELRYbESIURFiLIKRLHma9zt+X8jIJE7iLGvnHUjOnPN955xvzr1zDcNa1gSsCfzDCRSLxQv5fH4rm80u6Za16xJ1eKPR6AZ4a4PB4LIOn5wdCcDpQoVC4dqC4ueJdbvdMws4U9COBNhstoc45bNcLrd/qgqccrl8FNipSTwyi8/ztQWUSqUVNLiK8Rr1ev3SbMFer3caAh3gEDoGq1Vbi8SKw+HwChrY2ADmHGPystvtq/SB8Xc4lUrtlfF5e20BKLDG5mhEMWLUv+sCixLngoB92GvdBG0BKBifFGeDg+NO038nhMspQOgf74nAZaslYHt7+wCSokycFF9Op9M+UQjiHNgfET6nBJ5f+IvsnkWgwFDwLPZmtVoVApbcbjcbJsnB1TwOcwgvJx/PmOPxeELE/rZsKgLu+1PEQzhFB9ZE0W+VSiXdaDRM8n0+38jr9caAL9PHBPIQl6RALjQfBAKBFeC8jgPgLthMMBi8Tlxe8ybAl+wkEvlR4bV7Ho1G78uJELkB/CJjEPcmHA7fmcFvAb/JGK9urVbrybjYK98BJG6QQAHNZpNjHY9aJNHidONYu902+v3+VxnjHrkfJ5bNjU6n83iWQ18pAMW3CKIw1TdM03xPX14QlabPZ471g3/ycjgcSYgoswZ+PdR5IeNirxQA8BWSf7ZaLQNfuNeRSCQvEiT7hXuOF4IzUny89fv9FU6JjxCcl/F4/Pssh75SAF6WGhqvY3TQMbqnSnS5XJ+B4XB9TuGTioPYO4yej+PBHFwtgGQov+10Olex3qqScROKPDkFgPtBxUF8E82fxGKxTRW+61gmk7mbSCQe7bqQVcCagDWB/3oCvwDvWE1Ei1YohQAAAABJRU5ErkJggg=="/>
+		</CommandBar.Button>
+	</CommandBar.Group>
+	<CommandBar.Group layout="default" title="Musical">
+		<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2V0IEFsbCB0byAxNnRo"
+		                   title="1/16"/>
+		<CommandBar.Button type="Button" command.category="Macros" command.name="Macro U2V0IEFsbCB0byBRdWFydGVycw=="
+		                   title="1/4"/>
+		<CommandBar.Button type="Button" command.category="Musical Functions" command.name="Humanize" title=" ">
+			<CommandBar.Icon type="image/png" data="iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IDN8dNUwAAA3VJREFUaAXtmb+LE0EUxye5kFxAOTAJJxiLIFxzgSQSxDJWB2Jh65UKau8f4R+ghXZioYWFFop2FoKC1YFeEy7diYTc5SS/f+v3nQnEyW727W4uuydvYNnszMvM+3znzey8RCkpooAoIAqIAqKAKCAKiAKigCggCogCswoEZqvc1RwcHPxGUYlEgtU3bMOHh4f3cb8VCATSGP2M5kEDbd/R9jIWiz3Bvae123pkOWWnRwKuVqtqY2PDsm/YXkDfb3FlaQwSyqwAlJp2cN2Ix+M/zOys6oNWBifVTjOLvo9hCXQeLPkwtsmORqN3xWIx4tQvz4ARxvfgdNYKVAeDfWZ1dfWuXs999gwYjm/bhSWoYDCoBoPBNhdQt/MMGI5c1p3hPiOsc1xb3c4zYGxCtIYdFQCfvjXsiHQBX/Jshhfgu6MuTh0wbXRONruJOp4Bw2k6kk38YN+xQxNwnf0FzdAzYPjxVfOF9djr9ei19IllbGDkGTB22kd0XLQzy/1+X7XbbTUcDh8bsLCqPANeX1//ANjXcJ4FDYFUo9FQ3W73TSaTec+iMzDyDJh8aTabtwGyN16XBu79rSLYer2uWq3WXigUumNqyGjwFDiVSv2KRCIFQOyOsyFDl6ktGo3uJpPJQjqdrhoaMStDTLuFmSGMZ/JfOh/PW8sEHA6HN+HEPlJKV/mxZc5ql3RePmwn/7UadxwRtvPjpYU0zSwg2PmvFTBFBC7b+fHSgJ3mvwxwW/nx0oAxG47yXytgu/nxQjatSqVyFmsqiXfqvJTPcf5rBY3XFjs/dgyMEN3CrNGvjdcAu0ZOraysmPoGmzBsTdvdNACYnR/bBi6Xy+cRRs/g/NbEyWkQ+jz9PLHxy90WMGAvAfYjZuuiGdT4cF/xC6DuB3vTAmAAsC/mwdK5GMdFOtw/1QfyyzN7hvHj+iZgr5jNLJ136XCP8+43AD/0C6DuBxsYEOcAfLw+6T5dKG0jWMxuCVFwPZfLtabb/fSZHdL4r+gLwHYoH6V1SpCdTkcdHR0pHBlVrVZ7BVGuInXb9xOg7gt7hjGr/VKpVADkA8DeRGiv4fqJUP6M19HzfD5P51rfl39j8wTdpaTCbP27HZaijPPnHY3DnmG3TmEzUzisuO3G8PsnJaThYFIpCogCooAoIAqIAqKAKCAKiAKiwH+pwB+MVrrVoMzmWAAAAABJRU5ErkJggg=="/>
+		</CommandBar.Button>
+		<CommandBar.Button type="Button" command.category="Macros" command.name="Macro RGVjcmVhc2UgVmVsb2NpdHk="
+		                   title="Vel -"/>
+		<CommandBar.Button type="Button" command.category="Macros" command.name="Macro SW5jcmVhc2UgVmVsb2NpdHk="
+		                   title="Vel +"/>
+	</CommandBar.Group>
+</CommandBarModel>
